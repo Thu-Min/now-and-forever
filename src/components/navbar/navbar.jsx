@@ -4,7 +4,7 @@ import logoNoBackground from "../../assets/app_data/logo-no-background.png"
 
 const Navbar = () => {
   return (
-        <nav className="bg-white border-gray-200 fixed w-full">
+        <nav className="bg-white border-gray-200 w-full sticky top-0">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <img src={logoNoBackground} className="w-auto h-10" alt="Now & Forever Logo" />

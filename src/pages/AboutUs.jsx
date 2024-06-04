@@ -1,7 +1,13 @@
+import HeroImage from "../components/HeroImage/HeroImage"
+import AboutSection from "../components/About/AboutSection";
+import MeetOurTeam from "../components/About/MeetOurTeam";
+
 const About = () => {
     return (
-        <div>
-            <h1>About</h1>
+        <div className="bg-[#F6EFDF]">
+            <HeroImage />
+            <AboutSection />
+            <MeetOurTeam />
         </div>
     );
 }

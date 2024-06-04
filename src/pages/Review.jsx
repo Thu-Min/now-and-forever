@@ -1,7 +1,11 @@
+import HeroImage from "../components/HeroImage/HeroImage";
+import ReviewSection from "../components/Review/ReviewSection";
+
 const Review = () => {
     return (
-        <div>
-            <h1>Review</h1>
+        <div className="bg-[#F6EFDF]">
+            <HeroImage />
+            <ReviewSection />
         </div>
     );
 }

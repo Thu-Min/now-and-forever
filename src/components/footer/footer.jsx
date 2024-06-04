@@ -3,20 +3,20 @@ import logoNoBackground from "../../assets/app_data/logo-no-background.png"
 const Footer = () => {
     return (
         <>
-            <div className="px-[165px] py-[96px]">
+            <div className="px-[165px] py-[96px] sm:px-[24px] sm:py-[50px]">
                 <div className="flex flex-col space-y-10">
-                    <div className="flex justify-between">
+                    <div className="flex justify-between sm:flex-col sm:items-center sm:gap-[10px]">
                         <a href="" className="flex items-center space-x-3 rtl:space-x-reverse">
-                            <img src={logoNoBackground} className="w-auto h-10" alt="Now & Forever Logo" />
+                            <img src={logoNoBackground} className="w-auto h-10 sm:h-[70px]" alt="Now & Forever Logo" />
                         </a>
-                        <p className="font-[20px] w-[30%]">
+                        <p className="font-[20px] w-[30%] sm:w-full sm:text-[12px]">
                             Dorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
                         </p>
                     </div>
                     <hr />
-                    <div className="flex justify-between gap-[64px]">
+                    <div className="flex justify-between gap-[64px] sm:grid sm:grid-cols-2 sm:gap-[32px]">
                         <div>
-                            <ul className="space-y-[16px]">
+                            <ul className="space-y-[16px] sm:space-y-[8px]">
                                 <li>
                                     Home
                                 </li>
@@ -35,7 +35,7 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div>
-                            <ul className="space-y-[16px]">
+                            <ul className="space-y-[16px] sm:space-y-[8px]">
                                 <li>
                                     Cookie Policy
                                 </li>
@@ -48,7 +48,7 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div>
-                            <ul className="space-y-[16px]">
+                            <ul className="space-y-[16px] sm:space-y-[8px]">
                                 <li>
                                     Contact
                                 </li>
@@ -56,12 +56,12 @@ const Footer = () => {
                                     +66 61 294 6670
                                 </li>
                                 <li>
-                                    support@now&forever.com
+                                    now&forever.com
                                 </li>
                             </ul>
                         </div>
                         <div>
-                            <ul className="space-y-[16px]">
+                            <ul className="space-y-[16px] sm:space-y-[8px]">
                                 <li>
                                     Address
                                 </li>
@@ -71,9 +71,9 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="flex justify-between">
-                        <p>Copyright © 2024 Now & Forever. All rights reserved.</p>
-                        <p>Terms & Conditions</p>
+                    <div className="flex justify-between sm:flex-col">
+                        <p className="sm:text-[14px]">Copyright © 2024 Now & Forever. All rights reserved.</p>
+                        <p className="sm:text-[14px]">Terms & Conditions</p>
                     </div>
                 </div>
             </div>

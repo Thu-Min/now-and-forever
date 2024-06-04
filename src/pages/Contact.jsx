@@ -1,7 +1,11 @@
+import HeroImage from "../components/HeroImage/HeroImage"
+import ContactUs from "../components/Home/Contact"
+
 const Contact = () => {
     return (
-        <div>
-            <h1>Contact</h1>
+        <div className="bg-[#F6EFDF]">
+            <HeroImage />
+            <ContactUs />
         </div>
     );
 }

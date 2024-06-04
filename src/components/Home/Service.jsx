@@ -40,15 +40,15 @@ const Service = () => {
     };
 
     return (
-        <div className="m-[100px] sm:m-[25px]">
-            <div className="p-[75px] bg-[#E4D3B8] flex flex-col gap-[16px] sm:p-[25px]">
-                <div className="sm:space-y-[20px]">
-                    <h1 className="text-[32px] sm:text-[24px]">Services</h1>
-                    <h2 className="text-[48px] sm:text-[24px]">Choose the best suit service for you</h2>
-                    <p className="text-[20px] leading-8 sm:text-[16px]">Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus.</p>
+        <div className="md:m-[100px] sm:m-[25px]">
+            <div className="md:p-[75px] bg-[#E4D3B8] flex flex-col md:gap-[16px] sm:p-[25px] sm:gap-[20px]">
+                <div className=" sm:space-y-[20px]">
+                    <h1 className="md:text-[32px] sm:text-[24px]">Services</h1>
+                    <h2 className="md:text-[48px] sm:text-[24px]">Choose the best suit service for you</h2>
+                    <p className="md:text-[20px] leading-8 sm:text-[16px]">Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus.</p>
                 </div>
                 <div className="flex flex-col gap-[16px]">
-                    <ul className="flex gap-[30px] text-[24px] sm:text-[16px] sm:gap-[10px]">
+                    <ul className="flex md:gap-[30px] md:text-[24px] sm:text-[16px] sm:gap-[10px]">
                         {Object.keys(images).map((packageName) => (
                             <button
                             key={packageName}

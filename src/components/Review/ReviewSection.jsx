@@ -3,8 +3,8 @@ import beach from "../../assets/app_data/image/review/beach.jpeg"
 const ReviewSection = () => {
     return (
         <>
-            <div className="mx-[100px] p-[75px] space-y-10">
-                <div className="flex justify-around">
+            <div className="md:mx-[100px] md:p-[75px] md:space-y-10 sm:mx-[25px] sm:p-[25px] sm:space-y-10">
+                <div className="md:flex md:justify-around sm:grid sm:grid-cols-3 sm:place-items-start sm:place-content-center sm:gap-10">
                     <div className="flex flex-col items-center w-[100px]">
                         <div className="p-5 bg-[#F27083] w-10 rounded-full"></div>
                         <label htmlFor="" className="text-center">Venus</label>
@@ -31,223 +31,186 @@ const ReviewSection = () => {
                     </div>
                 </div>
                 <div>
-                    <h2 className="text-[38px] my-5">Most Popular Venues</h2>
-                    <div className="grid grid-cols-4">
-                        <div className="bg-white w-[270px] rounded">
-                            <img className="w-full h-[200px] object-cover rounded" src={beach} alt="" />
-                            <div className="mx-3 my-2">
-                                <h3 className="text-[18px]">Beach</h3>
-                                <h3 className="text-[18px]">Location</h3>
-                                <h3 className="text-[18px]">$500</h3>
+                    <h2 className="md:text-[38px] my-5 sm:text-[26px]">Most Popular Venues</h2>
+                    <div className="md:grid md:grid-cols-4 sm:grid-cols-1">
+                        <div className="bg-white md:w-[270px] sm:w-full rounded">
+                            <img className="w-full md:h-[200px] sm:h-full object-cover rounded" src={beach} alt="" />
+                            <div className="md:mx-3 md:my-2 sm:mx-3 sm:my-5">
+                                <h3 className="md:text-[18px] sm:text-[24px]">Beach</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">Location</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">$500</h3>
                             </div>
                         </div>
-                        <div className="bg-white w-[270px] rounded">
-                            <img className="w-full h-[200px] object-cover rounded" src={beach} alt="" />
-                            <div className="mx-3 my-2">
-                                <h3 className="text-[18px]">Beach</h3>
-                                <h3 className="text-[18px]">Location</h3>
-                                <h3 className="text-[18px]">$500</h3>
+                        <div className="bg-white md:w-[270px] sm:w-full rounded">
+                            <img className="w-full md:h-[200px] sm:h-full object-cover rounded" src={beach} alt="" />
+                            <div className="md:mx-3 md:my-2 sm:mx-3 sm:my-5">
+                                <h3 className="md:text-[18px] sm:text-[24px]">Beach</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">Location</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">$500</h3>
                             </div>
                         </div>
-                        <div className="bg-white w-[270px] rounded">
-                            <img className="w-full h-[200px] object-cover rounded" src={beach} alt="" />
-                            <div className="mx-3 my-2">
-                                <h3 className="text-[18px]">Beach</h3>
-                                <h3 className="text-[18px]">Location</h3>
-                                <h3 className="text-[18px]">$500</h3>
+                        <div className="bg-white md:w-[270px] sm:w-full rounded">
+                            <img className="w-full md:h-[200px] sm:h-full object-cover rounded" src={beach} alt="" />
+                            <div className="md:mx-3 md:my-2 sm:mx-3 sm:my-5">
+                                <h3 className="md:text-[18px] sm:text-[24px]">Beach</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">Location</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">$500</h3>
                             </div>
                         </div>
-                        <div className="bg-white w-[270px] rounded">
-                            <img className="w-full h-[200px] object-cover rounded" src={beach} alt="" />
-                            <div className="mx-3 my-2">
-                                <h3 className="text-[18px]">Beach</h3>
-                                <h3 className="text-[18px]">Location</h3>
-                                <h3 className="text-[18px]">$500</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <h2 className="text-[38px] my-5">Most Popular Venues</h2>
-                    <div className="grid grid-cols-4">
-                        <div className="bg-white w-[270px] rounded">
-                            <img className="w-full h-[200px] object-cover rounded" src={beach} alt="" />
-                            <div className="mx-3 my-2">
-                                <h3 className="text-[18px]">Beach</h3>
-                                <h3 className="text-[18px]">Location</h3>
-                                <h3 className="text-[18px]">$500</h3>
-                            </div>
-                        </div>
-                        <div className="bg-white w-[270px] rounded">
-                            <img className="w-full h-[200px] object-cover rounded" src={beach} alt="" />
-                            <div className="mx-3 my-2">
-                                <h3 className="text-[18px]">Beach</h3>
-                                <h3 className="text-[18px]">Location</h3>
-                                <h3 className="text-[18px]">$500</h3>
-                            </div>
-                        </div>
-                        <div className="bg-white w-[270px] rounded">
-                            <img className="w-full h-[200px] object-cover rounded" src={beach} alt="" />
-                            <div className="mx-3 my-2">
-                                <h3 className="text-[18px]">Beach</h3>
-                                <h3 className="text-[18px]">Location</h3>
-                                <h3 className="text-[18px]">$500</h3>
-                            </div>
-                        </div>
-                        <div className="bg-white w-[270px] rounded">
-                            <img className="w-full h-[200px] object-cover rounded" src={beach} alt="" />
-                            <div className="mx-3 my-2">
-                                <h3 className="text-[18px]">Beach</h3>
-                                <h3 className="text-[18px]">Location</h3>
-                                <h3 className="text-[18px]">$500</h3>
+                        <div className="bg-white md:w-[270px] sm:w-full rounded">
+                            <img className="w-full md:h-[200px] sm:h-full object-cover rounded" src={beach} alt="" />
+                            <div className="md:mx-3 md:my-2 sm:mx-3 sm:my-5">
+                                <h3 className="md:text-[18px] sm:text-[24px]">Beach</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">Location</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">$500</h3>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <h2 className="text-[38px] my-5">Most Popular Venues</h2>
-                    <div className="grid grid-cols-4">
-                        <div className="bg-white w-[270px] rounded">
-                            <img className="w-full h-[200px] object-cover rounded" src={beach} alt="" />
-                            <div className="mx-3 my-2">
-                                <h3 className="text-[18px]">Beach</h3>
-                                <h3 className="text-[18px]">Location</h3>
-                                <h3 className="text-[18px]">$500</h3>
+                    <h2 className="md:text-[38px] my-5 sm:text-[26px]">Most Popular Venues</h2>
+                    <div className="md:grid md:grid-cols-4 sm:grid-cols-1">
+                        <div className="bg-white md:w-[270px] sm:w-full rounded">
+                            <img className="w-full md:h-[200px] sm:h-full object-cover rounded" src={beach} alt="" />
+                            <div className="md:mx-3 md:my-2 sm:mx-3 sm:my-5">
+                                <h3 className="md:text-[18px] sm:text-[24px]">Beach</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">Location</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">$500</h3>
                             </div>
                         </div>
-                        <div className="bg-white w-[270px] rounded">
-                            <img className="w-full h-[200px] object-cover rounded" src={beach} alt="" />
-                            <div className="mx-3 my-2">
-                                <h3 className="text-[18px]">Beach</h3>
-                                <h3 className="text-[18px]">Location</h3>
-                                <h3 className="text-[18px]">$500</h3>
+                        <div className="bg-white md:w-[270px] sm:w-full rounded">
+                            <img className="w-full md:h-[200px] sm:h-full object-cover rounded" src={beach} alt="" />
+                            <div className="md:mx-3 md:my-2 sm:mx-3 sm:my-5">
+                                <h3 className="md:text-[18px] sm:text-[24px]">Beach</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">Location</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">$500</h3>
                             </div>
                         </div>
-                        <div className="bg-white w-[270px] rounded">
-                            <img className="w-full h-[200px] object-cover rounded" src={beach} alt="" />
-                            <div className="mx-3 my-2">
-                                <h3 className="text-[18px]">Beach</h3>
-                                <h3 className="text-[18px]">Location</h3>
-                                <h3 className="text-[18px]">$500</h3>
+                        <div className="bg-white md:w-[270px] sm:w-full rounded">
+                            <img className="w-full md:h-[200px] sm:h-full object-cover rounded" src={beach} alt="" />
+                            <div className="md:mx-3 md:my-2 sm:mx-3 sm:my-5">
+                                <h3 className="md:text-[18px] sm:text-[24px]">Beach</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">Location</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">$500</h3>
                             </div>
                         </div>
-                        <div className="bg-white w-[270px] rounded">
-                            <img className="w-full h-[200px] object-cover rounded" src={beach} alt="" />
-                            <div className="mx-3 my-2">
-                                <h3 className="text-[18px]">Beach</h3>
-                                <h3 className="text-[18px]">Location</h3>
-                                <h3 className="text-[18px]">$500</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <h2 className="text-[38px] my-5">Most Popular Venues</h2>
-                    <div className="grid grid-cols-4">
-                        <div className="bg-white w-[270px] rounded">
-                            <img className="w-full h-[200px] object-cover rounded" src={beach} alt="" />
-                            <div className="mx-3 my-2">
-                                <h3 className="text-[18px]">Beach</h3>
-                                <h3 className="text-[18px]">Location</h3>
-                                <h3 className="text-[18px]">$500</h3>
-                            </div>
-                        </div>
-                        <div className="bg-white w-[270px] rounded">
-                            <img className="w-full h-[200px] object-cover rounded" src={beach} alt="" />
-                            <div className="mx-3 my-2">
-                                <h3 className="text-[18px]">Beach</h3>
-                                <h3 className="text-[18px]">Location</h3>
-                                <h3 className="text-[18px]">$500</h3>
-                            </div>
-                        </div>
-                        <div className="bg-white w-[270px] rounded">
-                            <img className="w-full h-[200px] object-cover rounded" src={beach} alt="" />
-                            <div className="mx-3 my-2">
-                                <h3 className="text-[18px]">Beach</h3>
-                                <h3 className="text-[18px]">Location</h3>
-                                <h3 className="text-[18px]">$500</h3>
-                            </div>
-                        </div>
-                        <div className="bg-white w-[270px] rounded">
-                            <img className="w-full h-[200px] object-cover rounded" src={beach} alt="" />
-                            <div className="mx-3 my-2">
-                                <h3 className="text-[18px]">Beach</h3>
-                                <h3 className="text-[18px]">Location</h3>
-                                <h3 className="text-[18px]">$500</h3>
+                        <div className="bg-white md:w-[270px] sm:w-full rounded">
+                            <img className="w-full md:h-[200px] sm:h-full object-cover rounded" src={beach} alt="" />
+                            <div className="md:mx-3 md:my-2 sm:mx-3 sm:my-5">
+                                <h3 className="md:text-[18px] sm:text-[24px]">Beach</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">Location</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">$500</h3>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <h2 className="text-[38px] my-5">Most Popular Venues</h2>
-                    <div className="grid grid-cols-4">
-                        <div className="bg-white w-[270px] rounded">
-                            <img className="w-full h-[200px] object-cover rounded" src={beach} alt="" />
-                            <div className="mx-3 my-2">
-                                <h3 className="text-[18px]">Beach</h3>
-                                <h3 className="text-[18px]">Location</h3>
-                                <h3 className="text-[18px]">$500</h3>
+                    <h2 className="md:text-[38px] my-5 sm:text-[26px]">Most Popular Venues</h2>
+                    <div className="md:grid md:grid-cols-4 sm:grid-cols-1">
+                        <div className="bg-white md:w-[270px] sm:w-full rounded">
+                            <img className="w-full md:h-[200px] sm:h-full object-cover rounded" src={beach} alt="" />
+                            <div className="md:mx-3 md:my-2 sm:mx-3 sm:my-5">
+                                <h3 className="md:text-[18px] sm:text-[24px]">Beach</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">Location</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">$500</h3>
                             </div>
                         </div>
-                        <div className="bg-white w-[270px] rounded">
-                            <img className="w-full h-[200px] object-cover rounded" src={beach} alt="" />
-                            <div className="mx-3 my-2">
-                                <h3 className="text-[18px]">Beach</h3>
-                                <h3 className="text-[18px]">Location</h3>
-                                <h3 className="text-[18px]">$500</h3>
+                        <div className="bg-white md:w-[270px] sm:w-full rounded">
+                            <img className="w-full md:h-[200px] sm:h-full object-cover rounded" src={beach} alt="" />
+                            <div className="md:mx-3 md:my-2 sm:mx-3 sm:my-5">
+                                <h3 className="md:text-[18px] sm:text-[24px]">Beach</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">Location</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">$500</h3>
                             </div>
                         </div>
-                        <div className="bg-white w-[270px] rounded">
-                            <img className="w-full h-[200px] object-cover rounded" src={beach} alt="" />
-                            <div className="mx-3 my-2">
-                                <h3 className="text-[18px]">Beach</h3>
-                                <h3 className="text-[18px]">Location</h3>
-                                <h3 className="text-[18px]">$500</h3>
+                        <div className="bg-white md:w-[270px] sm:w-full rounded">
+                            <img className="w-full md:h-[200px] sm:h-full object-cover rounded" src={beach} alt="" />
+                            <div className="md:mx-3 md:my-2 sm:mx-3 sm:my-5">
+                                <h3 className="md:text-[18px] sm:text-[24px]">Beach</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">Location</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">$500</h3>
                             </div>
                         </div>
-                        <div className="bg-white w-[270px] rounded">
-                            <img className="w-full h-[200px] object-cover rounded" src={beach} alt="" />
-                            <div className="mx-3 my-2">
-                                <h3 className="text-[18px]">Beach</h3>
-                                <h3 className="text-[18px]">Location</h3>
-                                <h3 className="text-[18px]">$500</h3>
+                        <div className="bg-white md:w-[270px] sm:w-full rounded">
+                            <img className="w-full md:h-[200px] sm:h-full object-cover rounded" src={beach} alt="" />
+                            <div className="md:mx-3 md:my-2 sm:mx-3 sm:my-5">
+                                <h3 className="md:text-[18px] sm:text-[24px]">Beach</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">Location</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">$500</h3>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <h2 className="text-[38px] my-5">Most Popular Venues</h2>
-                    <div className="grid grid-cols-4">
-                        <div className="bg-white w-[270px] rounded">
-                            <img className="w-full h-[200px] object-cover rounded" src={beach} alt="" />
-                            <div className="mx-3 my-2">
-                                <h3 className="text-[18px]">Beach</h3>
-                                <h3 className="text-[18px]">Location</h3>
-                                <h3 className="text-[18px]">$500</h3>
+                    <h2 className="md:text-[38px] my-5 sm:text-[26px]">Most Popular Venues</h2>
+                    <div className="md:grid md:grid-cols-4 sm:grid-cols-1">
+                        <div className="bg-white md:w-[270px] sm:w-full rounded">
+                            <img className="w-full md:h-[200px] sm:h-full object-cover rounded" src={beach} alt="" />
+                            <div className="md:mx-3 md:my-2 sm:mx-3 sm:my-5">
+                                <h3 className="md:text-[18px] sm:text-[24px]">Beach</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">Location</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">$500</h3>
                             </div>
                         </div>
-                        <div className="bg-white w-[270px] rounded">
-                            <img className="w-full h-[200px] object-cover rounded" src={beach} alt="" />
-                            <div className="mx-3 my-2">
-                                <h3 className="text-[18px]">Beach</h3>
-                                <h3 className="text-[18px]">Location</h3>
-                                <h3 className="text-[18px]">$500</h3>
+                        <div className="bg-white md:w-[270px] sm:w-full rounded">
+                            <img className="w-full md:h-[200px] sm:h-full object-cover rounded" src={beach} alt="" />
+                            <div className="md:mx-3 md:my-2 sm:mx-3 sm:my-5">
+                                <h3 className="md:text-[18px] sm:text-[24px]">Beach</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">Location</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">$500</h3>
                             </div>
                         </div>
-                        <div className="bg-white w-[270px] rounded">
-                            <img className="w-full h-[200px] object-cover rounded" src={beach} alt="" />
-                            <div className="mx-3 my-2">
-                                <h3 className="text-[18px]">Beach</h3>
-                                <h3 className="text-[18px]">Location</h3>
-                                <h3 className="text-[18px]">$500</h3>
+                        <div className="bg-white md:w-[270px] sm:w-full rounded">
+                            <img className="w-full md:h-[200px] sm:h-full object-cover rounded" src={beach} alt="" />
+                            <div className="md:mx-3 md:my-2 sm:mx-3 sm:my-5">
+                                <h3 className="md:text-[18px] sm:text-[24px]">Beach</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">Location</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">$500</h3>
                             </div>
                         </div>
-                        <div className="bg-white w-[270px] rounded">
-                            <img className="w-full h-[200px] object-cover rounded" src={beach} alt="" />
-                            <div className="mx-3 my-2">
-                                <h3 className="text-[18px]">Beach</h3>
-                                <h3 className="text-[18px]">Location</h3>
-                                <h3 className="text-[18px]">$500</h3>
+                        <div className="bg-white md:w-[270px] sm:w-full rounded">
+                            <img className="w-full md:h-[200px] sm:h-full object-cover rounded" src={beach} alt="" />
+                            <div className="md:mx-3 md:my-2 sm:mx-3 sm:my-5">
+                                <h3 className="md:text-[18px] sm:text-[24px]">Beach</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">Location</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">$500</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2 className="md:text-[38px] my-5 sm:text-[26px]">Most Popular Venues</h2>
+                    <div className="md:grid md:grid-cols-4 sm:grid-cols-1">
+                        <div className="bg-white md:w-[270px] sm:w-full rounded">
+                            <img className="w-full md:h-[200px] sm:h-full object-cover rounded" src={beach} alt="" />
+                            <div className="md:mx-3 md:my-2 sm:mx-3 sm:my-5">
+                                <h3 className="md:text-[18px] sm:text-[24px]">Beach</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">Location</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">$500</h3>
+                            </div>
+                        </div>
+                        <div className="bg-white md:w-[270px] sm:w-full rounded">
+                            <img className="w-full md:h-[200px] sm:h-full object-cover rounded" src={beach} alt="" />
+                            <div className="md:mx-3 md:my-2 sm:mx-3 sm:my-5">
+                                <h3 className="md:text-[18px] sm:text-[24px]">Beach</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">Location</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">$500</h3>
+                            </div>
+                        </div>
+                        <div className="bg-white md:w-[270px] sm:w-full rounded">
+                            <img className="w-full md:h-[200px] sm:h-full object-cover rounded" src={beach} alt="" />
+                            <div className="md:mx-3 md:my-2 sm:mx-3 sm:my-5">
+                                <h3 className="md:text-[18px] sm:text-[24px]">Beach</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">Location</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">$500</h3>
+                            </div>
+                        </div>
+                        <div className="bg-white md:w-[270px] sm:w-full rounded">
+                            <img className="w-full md:h-[200px] sm:h-full object-cover rounded" src={beach} alt="" />
+                            <div className="md:mx-3 md:my-2 sm:mx-3 sm:my-5">
+                                <h3 className="md:text-[18px] sm:text-[24px]">Beach</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">Location</h3>
+                                <h3 className="md:text-[18px] sm:text-[24px]">$500</h3>
                             </div>
                         </div>
                     </div>

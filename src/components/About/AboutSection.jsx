@@ -8,64 +8,64 @@ import photographer from "../../assets/app_data/image/about/photographer1.png"
 
 const AboutSection = () => {
     return (
-        <div className="m-[100px] mb-0 p-[75px] space-y-20">
-            <div className="flex items-start gap-[100px]">
-                <div className="w-[369px]">
-                    <img className="h-[300px] w-full object-cover" src={founder} alt="" />
+        <div className="md:m-[100px] md:mb-0 md:p-[75px] md:space-y-20 sm:m-[25px] sm:p-[25px] sm:space-y-10">
+            <div className="flex md:flex-row items-start md:gap-[100px] sm:flex-col sm:gap-[25px]">
+                <div className="md:w-[369px] sm:w-full">
+                    <img className="md:h-[300px] sm:h-[131px] sm:w-full object-cover" src={founder} alt="" />
                 </div>
-                <div className="w-[573px] flex flex-col gap-[16px]">
-                    <h1 className="text-[32px]">About the Owner</h1>
-                    <p className="text-[20px] leading-8">Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus.</p>
-                </div>
-            </div>
-
-            <div className="flex items-start gap-[100px]">
-                <div className="w-[369px]">
-                    <img className="h-[300px] w-full object-cover" src={planner} alt="" />
-                </div>
-                <div className="w-[573px] flex flex-col gap-[16px]">
-                    <h1 className="text-[32px]">Wedding Planner Team</h1>
-                    <p className="text-[20px] leading-8">Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus.</p>
+                <div className="md:w-[573px] flex flex-col gap-[16px]">
+                    <h1 className="md:text-[32px] sm:text-[18px]">About the Owner</h1>
+                    <p className="md:text-[20px] md:leading-8 sm:text-[12px] sm:leading-2">Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus.</p>
                 </div>
             </div>
 
-            <div className="flex items-start gap-[100px]">
-                <div className="w-[369px]">
-                    <img className="h-[300px] w-full object-cover" src={makeup} alt="" />
+            <div className="flex md:flex-row items-start md:gap-[100px] sm:flex-col sm:gap-[25px]">
+                <div className="md:w-[369px] sm:w-full">
+                    <img className="md:h-[300px] sm:h-[131px] sm:w-full object-cover" src={founder} alt="" />
                 </div>
-                <div className="w-[573px] flex flex-col gap-[16px]">
-                    <h1 className="text-[32px]">Make-Up & Hair Stylish Team</h1>
-                    <p className="text-[20px] leading-8">Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus.</p>
-                </div>
-            </div>
-
-            <div className="flex items-start gap-[100px]">
-                <div className="w-[369px]">
-                    <img className="h-[300px] w-full object-cover" src={makeuptwo} alt="" />
-                </div>
-                <div className="w-[573px] flex flex-col gap-[16px]">
-                    <h1 className="text-[32px]">Costume Designer Team</h1>
-                    <p className="text-[20px] leading-8">Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus.</p>
+                <div className="md:w-[573px] flex flex-col gap-[16px]">
+                    <h1 className="md:text-[32px] sm:text-[18px]">About the Owner</h1>
+                    <p className="md:text-[20px] md:leading-8 sm:text-[12px] sm:leading-2">Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus.</p>
                 </div>
             </div>
 
-            <div className="flex items-start gap-[100px]">
-                <div className="w-[369px]">
-                    <img className="h-[300px] w-full object-cover" src={floral} alt="" />
+            <div className="flex md:flex-row items-start md:gap-[100px] sm:flex-col sm:gap-[25px]">
+                <div className="md:w-[369px] sm:w-full">
+                    <img className="md:h-[300px] sm:h-[131px] sm:w-full object-cover" src={founder} alt="" />
                 </div>
-                <div className="w-[573px] flex flex-col gap-[16px]">
-                    <h1 className="text-[32px]">Floral Designer Team</h1>
-                    <p className="text-[20px] leading-8">Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus.</p>
+                <div className="md:w-[573px] flex flex-col gap-[16px]">
+                    <h1 className="md:text-[32px] sm:text-[18px]">About the Owner</h1>
+                    <p className="md:text-[20px] md:leading-8 sm:text-[12px] sm:leading-2">Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus.</p>
                 </div>
             </div>
 
-            <div className="flex items-start gap-[100px]">
-                <div className="w-[369px]">
-                    <img className="h-[300px] w-full object-cover" src={photographer} alt="" />
+            <div className="flex md:flex-row items-start md:gap-[100px] sm:flex-col sm:gap-[25px]">
+                <div className="md:w-[369px] sm:w-full">
+                    <img className="md:h-[300px] sm:h-[131px] sm:w-full object-cover" src={founder} alt="" />
                 </div>
-                <div className="w-[573px] flex flex-col gap-[16px]">
-                    <h1 className="text-[32px]">Photographer/Videographer Team</h1>
-                    <p className="text-[20px] leading-8">Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus.</p>
+                <div className="md:w-[573px] flex flex-col gap-[16px]">
+                    <h1 className="md:text-[32px] sm:text-[18px]">About the Owner</h1>
+                    <p className="md:text-[20px] md:leading-8 sm:text-[12px] sm:leading-2">Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus.</p>
+                </div>
+            </div>
+
+            <div className="flex md:flex-row items-start md:gap-[100px] sm:flex-col sm:gap-[25px]">
+                <div className="md:w-[369px] sm:w-full">
+                    <img className="md:h-[300px] sm:h-[131px] sm:w-full object-cover" src={founder} alt="" />
+                </div>
+                <div className="md:w-[573px] flex flex-col gap-[16px]">
+                    <h1 className="md:text-[32px] sm:text-[18px]">About the Owner</h1>
+                    <p className="md:text-[20px] md:leading-8 sm:text-[12px] sm:leading-2">Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus.</p>
+                </div>
+            </div>
+
+            <div className="flex md:flex-row items-start md:gap-[100px] sm:flex-col sm:gap-[25px]">
+                <div className="md:w-[369px] sm:w-full">
+                    <img className="md:h-[300px] sm:h-[131px] sm:w-full object-cover" src={founder} alt="" />
+                </div>
+                <div className="md:w-[573px] flex flex-col gap-[16px]">
+                    <h1 className="md:text-[32px] sm:text-[18px]">About the Owner</h1>
+                    <p className="md:text-[20px] md:leading-8 sm:text-[12px] sm:leading-2">Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus.</p>
                 </div>
             </div>
         </div>

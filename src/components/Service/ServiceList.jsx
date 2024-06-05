@@ -31,7 +31,9 @@ const ServiceList = () => {
                     <div className=" sm:space-y-[20px]">
                         <h1 className="md:text-[32px] sm:text-[24px]">Services</h1>
                         <h2 className="md:text-[48px] sm:text-[24px]">See all our services</h2>
-                        <p className="md:text-[20px] leading-8 sm:text-[16px]">Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus.</p>
+                        <p className="md:text-[20px] leading-8 sm:text-[16px] text-justify">
+                            At Now & Forever, we offer a comprehensive range of services to ensure your wedding day is perfect. Our expert Wedding Planner Team manages every detail, from venue selection to vendor coordination, ensuring a seamless experience. Our talented Makeup & Hairstylist Team enhances your natural beauty, while our Costume Designer Team provides personalised fittings and custom attire. The Floral Designer Team creates stunning arrangements to enhance your celebration's ambiance. Finally, our Photography and Videography Team captures every precious moment, creating timeless memories. Explore all our services to see how we can bring your dream wedding to life. Contact us today!
+                        </p>
                     </div>
                     <div className="flex flex-col gap-[16px]">
                         <ul className="md:gap-[20px] md:text-[24px] grid md:grid-cols-3 md:place-items-start sm:grid-cols-2 sm:text-[16px] sm:gap-[10px]">

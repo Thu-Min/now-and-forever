@@ -11,7 +11,9 @@ const About = () => {
                 <div className="md:w-[573px] flex flex-col md:gap-[16px] sm:w-[293px] sm:gap-[20px]">
                     <h1 className="md:text-[32px] sm:text-[24px]">About Now & Forever</h1>
                     <h2 className="md:text-[48px] sm:text-[24px]">Plan your Wedding truly EXPECTIONAL</h2>
-                    <p className="md:text-[20px] leading-8">Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus.</p>
+                    <p className="md:text-[20px] leading-8 text-justify">
+                        Welcome to Now & Forever, your premier wedding planner service! At Now & Forever, we believe that every love story is unique and deserves to be celebrated in the most special way possible. Our mission is to turn your wedding dreams into reality, creating unforgettable moments that you and your guests will cherish forever.
+                    </p>
                     <button className="p-3 w-[30%] mx-auto bg-white rounded sm:w-[50%]">Book Now</button>
                 </div>
             </div>

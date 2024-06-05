@@ -45,7 +45,9 @@ const Service = () => {
                 <div className=" sm:space-y-[20px]">
                     <h1 className="md:text-[32px] sm:text-[24px]">Services</h1>
                     <h2 className="md:text-[48px] sm:text-[24px]">Choose the best suit service for you</h2>
-                    <p className="md:text-[20px] leading-8 sm:text-[16px]">Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus.</p>
+                    <p className="md:text-[20px] leading-8 sm:text-[16px] text-justify">
+                        With the largest network of local wedding vendors, WeddingWire offers the most comprehensive wedding site out there. You will be able to find the best vendor for your budget and plan your wedding exactly the way you envisioned it. We make it simple to get the pricing, availability, and answers you need from wedding venues and wedding vendors across every town.
+                    </p>
                 </div>
                 <div className="flex flex-col gap-[16px]">
                     <ul className="flex md:gap-[30px] md:text-[24px] sm:text-[16px] sm:gap-[10px]">

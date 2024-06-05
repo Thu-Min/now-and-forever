@@ -4,6 +4,7 @@ import VenueAndVendor from "./VenueAndVendor"
 import PhotographyAndVideography from "./PhotographyAndVideography"
 import MakeUpAndHairStyle from "./MakeUpAndHariStyle"
 import InvitationPaper from "./InvitationPaper"
+import Modal from "../BookNowModal/Modal";
 import { useState } from "react"
 
 const services = {
@@ -16,6 +17,16 @@ const services = {
 };
   
 const ServiceList = () => {
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const openModal = () => {
+        setIsModalOpen(true);
+    };
+
+    const closeModal = () => {
+        setIsModalOpen(false);
+    };
+
     const [selectedService, setService] = useState("Wedding Package");
 
     const handleServiceClick = (serviceName) => {
@@ -53,8 +64,55 @@ const ServiceList = () => {
                         </div>
 
                         <div className="text-center">
-                            <button className="p-3 md:w-[30%] mx-auto bg-black text-white rounded sm:w-[50%]">Book Now</button>
+                            <button onClick={openModal} className="p-3 md:w-[30%] mx-auto bg-black text-white rounded sm:w-[50%]">Book Now</button>
                         </div>
+
+                        <Modal isOpen={isModalOpen} onClose={closeModal}>
+                            <h2 className="text-2xl mb-4">Enter your Information</h2>
+                            <form action="#" class="space-y-8 flex flex-col justify-center items-center w-full">
+                                <div className="flex md:flex-row w-full justify-between md:space-x-[50px] sm:flex-col sm:space-x-0">
+                                    <div className="md:w-full sm:w-[343px]">
+                                        <label for="email" class="block mb-2 text-sm font-medium text-black">Name</label>
+                                        <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" placeholder="" required />
+                                    </div>
+                                    <div className="md:w-full sm:w-[343px]">
+                                        <label for="email" class="block mb-2 text-sm font-medium text-black">Email</label>
+                                        <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" placeholder="" required />
+                                    </div>
+                                </div>
+                                <div className="flex md:flex-row w-full justify-between md:space-x-[50px] sm:flex-col sm:space-x-0">
+                                    <div className="md:w-full sm:w-[343px]">
+                                        <label for="email" class="block mb-2 text-sm font-medium text-black">Location</label>
+                                        <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" placeholder="" required />
+                                    </div>
+                                    <div className="md:w-full sm:w-[343px]">
+                                        <label for="email" class="block mb-2 text-sm font-medium text-black">Theme</label>
+                                        <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" placeholder="" required />
+                                    </div>
+                                </div>
+                                <div className="flex md:flex-row w-full justify-between md:space-x-[50px] sm:flex-col sm:space-x-0">
+                                    <div className="md:w-full sm:w-[343px]">
+                                        <label for="email" class="block mb-2 text-sm font-medium text-black">Wedding Date</label>
+                                        <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" placeholder="" required />
+                                    </div>
+                                    <div className="md:w-full sm:w-[343px]">
+                                        <label for="email" class="block mb-2 text-sm font-medium text-black">Budget</label>
+                                        <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" placeholder="" required />
+                                    </div>
+                                </div>
+                                <div className="md:w-full sm:w-[343px]">
+                                    <label for="email" class="block mb-2 text-sm font-medium text-black">Additional specific requests or preferences</label>
+                                    <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" placeholder="" required />
+                                </div>
+
+                                <button
+                                onClick={closeModal}
+                                className="px-4 py-2 mt-5 bg-black text-white rounded-lg"
+                                >
+                                    Book Now
+                                </button>
+                            </form>
+                        </Modal>
                     </div>
                 </div>
             </div>

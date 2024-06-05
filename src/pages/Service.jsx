@@ -1,7 +1,11 @@
+import HeroVideo from "../components/HeroVideo/HeroVideo"
+import ServiceList from "../components/Service/ServiceList";
+
 const Service = () => {
     return (
-        <div>
-            <h1>Service</h1>
+        <div className="bg-[#F6EFDF]">
+            <HeroVideo />
+            <ServiceList />
         </div>
     );
 }

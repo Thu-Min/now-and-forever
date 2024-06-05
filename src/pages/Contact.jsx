@@ -1,4 +1,4 @@
-import HeroImage from "../components/HeroImage/HeroImage"
+import HeroImage from "../components/Contact/HeroImage";
 import ContactUs from "../components/Home/Contact"
 
 const Contact = () => {

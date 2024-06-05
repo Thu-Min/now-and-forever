@@ -1,4 +1,4 @@
-import HeroImage from "../components/HeroImage/HeroImage";
+import HeroImage from "../components/Review/HeroImage";
 import ReviewSection from "../components/Review/ReviewSection";
 
 const Review = () => {

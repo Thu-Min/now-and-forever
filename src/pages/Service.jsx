@@ -1,4 +1,4 @@
-import HeroVideo from "../components/HeroVideo/HeroVideo"
+import HeroVideo from "../components/Service/HeroVideo";
 import ServiceList from "../components/Service/ServiceList";
 
 const Service = () => {

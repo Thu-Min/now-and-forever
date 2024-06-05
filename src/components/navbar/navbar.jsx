@@ -50,7 +50,7 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/"
-                className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0"
+                className="block py-2 px-3 bg-blue-700 rounded md:bg-transparent text-gray-900 md:p-0"
                 aria-current="page"
                 onClick={() => setIsOpen(false)}
               >
